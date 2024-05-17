@@ -148,7 +148,8 @@
                 <a href="images/Prithika_CV.pdf" download class="btn btn2">Download CV</a>
             </div>
             <div class="contact-right">
-                <form action="send_email.php" method="POST">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="f195ee41-4419-4713-b3c6-d16d7b10d3a9">
                     <input type="text" name="name" placeholder="Your Name" required>
                     <input type="email" name="email" placeholder="Your Email" required>
                     <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
